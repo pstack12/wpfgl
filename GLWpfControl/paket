@@ -1,0 +1,30 @@
+type project
+title
+    OpenTK.GLWpfControl
+id
+    OpenTK.GLWpfControl
+owners
+    opentk varon
+authors
+    Team OpenTK
+summary
+    A native WPF control for OpenTK 4.8.0+
+projectUrl
+    https://www.opentk.net
+iconUrl
+    https://raw.githubusercontent.com/opentk/opentk.net/docfx/assets/opentk.png
+licenseUrl
+    https://github.com/varon/GLWpfControl/blob/master/LICENSE.md
+requireLicenseAcceptance
+    false
+copyright
+    Copyright (c) 2022 Team OpenTK.
+
+include-pdbs true
+
+dependencies
+    OpenTK ~> 4.0 >= 4.8.2
+
+files
+    bin\Release\netcoreapp3.1\netcoreapp3.1\GLWpfControl.dll ==> lib\netcoreapp3.1
+    bin\Release\netcoreapp3.1\netcoreapp3.1\GLWpfControl.pdb ==> lib\netcoreapp3.1
